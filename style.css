@@ -1,0 +1,110 @@
+
+body{
+   background-color: black;
+   color: white;
+   background-size: 300px 100px;
+   text-align: center;
+   
+   }
+  
+ /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: black;
+  width: 70%;
+  font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+  border-style: Groove;
+   border: 15px georgian;
+  padding: 40px;
+  margin: 10px;
+  .dependents p 
+  {border: 1px solid red;
+  outline: 2px dashed blue;
+}
+  .borderexample {
+ border-style:solid;
+ border-color:#287EC7;
+}
+  
+
+  
+  
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+   
+  .fa-instagram {
+  background: #125688;
+  color: white;
+}
+ 
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+  width: 30%;
+   border: 15px black;
+  padding: 40px;
+  margin: 10px;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 350px;
+  vertical-align: middle;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+   img {
+  border: 5px solid #555;
+}
